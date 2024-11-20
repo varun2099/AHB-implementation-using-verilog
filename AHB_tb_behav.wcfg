@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AHB_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AHB_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2826470589fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="119"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/AHB_tb/Hclk" type="logic">
+      <obj_property name="ElementShortName">Hclk</obj_property>
+      <obj_property name="ObjectShortName">Hclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AHB_tb/Hresetn" type="logic">
+      <obj_property name="ElementShortName">Hresetn</obj_property>
+      <obj_property name="ObjectShortName">Hresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AHB_tb/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AHB_tb/addr" type="logic">
+      <obj_property name="ElementShortName">addr</obj_property>
+      <obj_property name="ObjectShortName">addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AHB_tb/data_in_1" type="array">
+      <obj_property name="ElementShortName">data_in_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AHB_tb/data_in_2" type="array">
+      <obj_property name="ElementShortName">data_in_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_2[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AHB_tb/Wr" type="logic">
+      <obj_property name="ElementShortName">Wr</obj_property>
+      <obj_property name="ObjectShortName">Wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AHB_tb/slave_sel" type="array">
+      <obj_property name="ElementShortName">slave_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">slave_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AHB_tb/Hwdata" type="array">
+      <obj_property name="ElementShortName">Hwdata[32:0]</obj_property>
+      <obj_property name="ObjectShortName">Hwdata[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AHB_tb/d_out" type="array">
+      <obj_property name="ElementShortName">d_out[32:0]</obj_property>
+      <obj_property name="ObjectShortName">d_out[32:0]</obj_property>
+   </wvobject>
+</wave_config>
